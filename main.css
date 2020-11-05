@@ -1,0 +1,85 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Grandstander', cursive;
+	letter-spacing: 0.27vw;
+}
+body{
+	background-color:#000;
+}
+p{
+	font-size: 1.5vw;
+}
+
+.top{
+	height: 30vw;
+	width: auto;
+	z-index: 0;
+}
+.top img{
+	height: 5vw;
+}
+.zurueck img{
+    height: 10%;
+	margin: 1vw;
+}
+.player{
+	display: block;
+	background: url(icons/unstoppable.png);
+    background-size: cover;
+	opacity: 0,5;
+	border: 1vw black solid;
+	width: 40%;
+	margin: 1vw auto;
+	padding: 1vw;
+	padding-top: 15vw;
+}
+.player audio{
+	color: black;
+}
+#neffexvid{
+	background-color: black;
+}
+video{
+	height: 20vw;
+	border: 2vw black solid;
+	border-radius: 1vw;
+}
+
+.nav{
+	height: 8vw;
+	display: flex;
+	flex-wrap: nowrap;
+	width: auto;
+	padding-top: 5vw;
+	background-color: #aaa;
+	border-radius: 0vw 0vw 2.5vw 2.5vw;
+}
+
+.nav div{
+	padding-left: 12.5vw;
+	color: white;
+}
+
+#image{
+    width: 45%;
+}
+
+.inhalt{
+	background-color: #aaa;
+	color: white;
+	width: 80%;
+    height: auto;
+	margin: 0px auto;
+	padding: 2%;
+	margin-bottom: 7vw;
+	text-align: center;
+	position: absolute;
+	top: 15vw;
+	border-radius: 2.5vw;
+	left: 8.5%;
+}
+
+h4{
+	padding: 1vw
+}
